@@ -3,7 +3,7 @@ require 'formula'
 class Sshpass < Formula
   url 'https://github.com/jtcastillo/sshpass/raw/master/sshpass-1.06.tar.gz'
   homepage 'http://sourceforge.net/projects/sshpass'
-  sha256 '7a07d3f7cca5c0b38ca811984ef8da536da32932d68c1a6cce33ec2462b930bf'
+  sha256 'c6324fcee608b99a58f9870157dfa754837f8c48be3df0f5e2f3accf145dee60'
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
