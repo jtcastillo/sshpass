@@ -8,8 +8,4 @@ https://sourceforge.net/projects/sshpass <- the actual sshpass project itself
 
 To install sshpass with brew: `brew install https://raw.githubusercontent.com/jtcastillo/sshpass/master/Library/Formula/sshpass.rb`
 
-#### Note
-I have an error when installing sshpass with it expecting gsed rather than sed. To resolve:
-
-    cd /usr/local/Library/ENV/4.3
-    ln -s /usr/local/bin/gsed gsed
+`sshpass` can be considered unsafe, which is why it is not officially included as a Homebrew package. Please use caution when using this package.
