@@ -2,7 +2,7 @@
 
 This repo was set up as a self-contained way to source sshpass. It is the work of two individual repos:
 
-https://github.com/kadwanev/bigboybrew <- the original version of this repo, which now has an out of date sha256 hash for the sshpass tar.gz and has not been updated in some time
+https://github.com/kadwanev/bigboybrew <- the original version of this repo, which relies on sourceforge, which is currently in "Disaster recovery" mode and thus breaks bigboybrew, which checks the sha hash
 
 https://sourceforge.net/projects/sshpass <- the actual sshpass project itself
 
